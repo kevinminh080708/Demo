@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="/picture/logo.png" type="image/x-icon" class="icon">
+    <link rel="stylesheet" href="/css/index.css">
+    <style>
+        body, html {
+          height: 100%;
+        }
+        
+        .parallax {
+            margin-top: -5%;
+            margin-left: -2%;
+            margin-right: -2%;
+
+          /* The image used */
+            background-image: url('/picture/main/background1.jpg');
+          /* Full height */
+          height: 60%; 
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        
+        /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+        @media only screen and (max-device-width: 1366px) {
+            .parallax {
+            background-attachment: scroll;
+          }
+        }
+        </style>
+</head>
+<body>
+    
+    <div class="topbar">
+        <img class="logo-img" src="/picture/logo.png" width="100" height="70" ALT="align box" ALIGN=CENTER>
+        <a href="/html/index.html">Home</a>
+        <a href="/html/prdindex.html">Product</a>
+        <a href="">Store</a>
+        <a href="">Imformation</a>
+        <a href="">About</a>
+    </div>
+        <div class="content1">
+            <H1>Test</H1>
+        </div>
+        
+        <div class="parallax"></div>
+        
+        <div class="content2">
+            <h1>Tes1</h1>
+        </div>
+        
+        <div class="parallax"></div>
+    
+        <div class="content2">
+            <h1>Tes2</h1>
+        </div>
+    
+        <div class="parallax"></div>
+    
+        <div class="content2">
+            <h1>Tes3</h1>
+        </div>
+    
+        <div class="parallax"></div>
+    
+    <div class="products"></div>
+    <script src="/js/index.js"></script> <!-- link to the javascript file -->
+
+
+</body>
+</html>
